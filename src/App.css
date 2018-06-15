@@ -1,0 +1,19 @@
+.App {
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.WelcomeOverlay {
+  height: 100vh;
+  background-image: url(./assets/bg@3x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.landing {
+  background-color: blue;
+}

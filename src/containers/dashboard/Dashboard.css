@@ -1,0 +1,26 @@
+.Dashboard {
+  height: calc(100vh);
+  position: relative;
+  font-size: 21px;
+}
+
+.placeholder {
+  width: calc(100% - 128px);
+  filter: blur(3px);
+  margin: 0 64px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  color: #fff;
+  background-color: rgba(0,0,0,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}

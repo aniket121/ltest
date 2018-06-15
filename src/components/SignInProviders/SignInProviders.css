@@ -1,0 +1,111 @@
+.paper {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.providers {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 44px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.message {
+  text-transform: uppercase;
+}
+
+.GoogleLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: 'F37 Ginger', sans-serif;
+  width: 56px;
+  height: 56px;
+  background-image: linear-gradient(
+    -208deg,
+    rgba(223, 73, 48, 1) 0%,
+    rgba(170, 42, 21, 1) 100%
+  );
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.GoogleLogin:focus {
+  outline: none;
+}
+
+.FacebookLogin {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'F37 Ginger', sans-serif;
+  width: 56px;
+  height: 56px;
+  background-image: linear-gradient(
+    -212deg,
+    rgba(80, 124, 192, 1) 0%,
+    rgba(2, 68, 171, 1) 100%
+  );
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.FacebookLogin:focus {
+  outline: none;
+}
+
+.EmailLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    -34deg,
+    rgba(0, 39, 163, 1) 0%,
+    rgba(132, 0, 160, 1) 35%,
+    rgba(225, 69, 59, 1) 76%,
+    rgba(255, 205, 22, 1) 100%
+  );
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.Email::selection {
+  background-color: transparent;
+}
+
+.providerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.providerName {
+  text-transform: uppercase;
+  color: rgba(128, 128, 128, 1);
+  font-size: 12px;
+}
+.Email {
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+.providerIcon {
+  font-style: normal;
+}
+
+.providerIcon::before {
+  font-size: 24px;
+}

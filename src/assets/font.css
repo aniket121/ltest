@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'F37 Ginger Light';
+  src: url('./fonts/F37Ginger-Light.otf'); /* IE9 Compat Modes */
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'F37 Ginger';
+  src: url('./fonts/F37Ginger-Regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/F37Ginger-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/F37Ginger-Regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/F37Ginger-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('./fonts/F37Ginger-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/F37Ginger-Regular.svg#cd0eb1181545a540be3acd13cd87c831') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+    font-family: 'F37 Ginger Light';
+    src: url('./fonts/f37ginger-light-webfont.eot');
+    src: url('./fonts/f37ginger-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/f37ginger-light-webfont.woff2') format('woff2'),
+         url('./fonts/f37ginger-light-webfont.woff') format('woff'),
+         url('./fonts/f37ginger-light-webfont.ttf') format('truetype'),
+         url('./fonts/f37ginger-light-webfont.svg#f37_gingerlight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}

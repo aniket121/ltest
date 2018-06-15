@@ -1,0 +1,443 @@
+exports[`<YoutubeTarget /> renders snapshot 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Modal
+    closeModal={undefined}
+    open={undefined}
+    title="Create Youtube Target">
+    <form
+        onSubmit={[Function]}>
+        <div
+            className={undefined}>
+            <LivepinTextField
+                hint="My youtube channel"
+                label="Destination Target Name"
+                name="name"
+                onChange={[Function]}
+                type="text"
+                value="" />
+            <DropDownMenu
+                anchorOrigin={
+                    Object {
+                        "horizontal": "left",
+                        "vertical": "top",
+                      }
+                }
+                animated={true}
+                autoWidth={false}
+                disabled={false}
+                iconButton={<NavigationArrowDropDown />}
+                maxHeight={500}
+                multiple={false}
+                name="privacyStatus"
+                onChange={[Function]}
+                openImmediately={false}
+                selectedMenuItemStyle={
+                    Object {
+                        "color": "#6908A1",
+                      }
+                }
+                style={
+                    Object {
+                        "width": 310,
+                      }
+                }
+                value="public">
+                <MenuItem
+                    anchorOrigin={
+                        Object {
+                            "horizontal": "right",
+                            "vertical": "top",
+                          }
+                    }
+                    checked={false}
+                    desktop={false}
+                    disabled={false}
+                    focusState="none"
+                    insetChildren={false}
+                    primaryText="Public"
+                    value="public" />
+                <MenuItem
+                    anchorOrigin={
+                        Object {
+                            "horizontal": "right",
+                            "vertical": "top",
+                          }
+                    }
+                    checked={false}
+                    desktop={false}
+                    disabled={false}
+                    focusState="none"
+                    insetChildren={false}
+                    primaryText="Private"
+                    value="private" />
+                <MenuItem
+                    anchorOrigin={
+                        Object {
+                            "horizontal": "right",
+                            "vertical": "top",
+                          }
+                    }
+                    checked={false}
+                    desktop={false}
+                    disabled={false}
+                    focusState="none"
+                    insetChildren={false}
+                    primaryText="Unlisted"
+                    value="unlisted" />
+            </DropDownMenu>
+            <LoaderButton
+                disabled={true}
+                isLoading={undefined}
+                loadingText="Creating target..."
+                text="Create"
+                type="submit" />
+        </div>
+    </form>
+</Modal>,
+  "nodes": Array [
+    <Modal
+      closeModal={undefined}
+      open={undefined}
+      title="Create Youtube Target">
+      <form
+            onSubmit={[Function]}>
+            <div
+                  className={undefined}>
+                  <LivepinTextField
+                        hint="My youtube channel"
+                        label="Destination Target Name"
+                        name="name"
+                        onChange={[Function]}
+                        type="text"
+                        value="" />
+                  <DropDownMenu
+                        anchorOrigin={
+                              Object {
+                                    "horizontal": "left",
+                                    "vertical": "top",
+                                  }
+                        }
+                        animated={true}
+                        autoWidth={false}
+                        disabled={false}
+                        iconButton={<NavigationArrowDropDown />}
+                        maxHeight={500}
+                        multiple={false}
+                        name="privacyStatus"
+                        onChange={[Function]}
+                        openImmediately={false}
+                        selectedMenuItemStyle={
+                              Object {
+                                    "color": "#6908A1",
+                                  }
+                        }
+                        style={
+                              Object {
+                                    "width": 310,
+                                  }
+                        }
+                        value="public">
+                        <MenuItem
+                              anchorOrigin={
+                                    Object {
+                                          "horizontal": "right",
+                                          "vertical": "top",
+                                        }
+                              }
+                              checked={false}
+                              desktop={false}
+                              disabled={false}
+                              focusState="none"
+                              insetChildren={false}
+                              primaryText="Public"
+                              value="public" />
+                        <MenuItem
+                              anchorOrigin={
+                                    Object {
+                                          "horizontal": "right",
+                                          "vertical": "top",
+                                        }
+                              }
+                              checked={false}
+                              desktop={false}
+                              disabled={false}
+                              focusState="none"
+                              insetChildren={false}
+                              primaryText="Private"
+                              value="private" />
+                        <MenuItem
+                              anchorOrigin={
+                                    Object {
+                                          "horizontal": "right",
+                                          "vertical": "top",
+                                        }
+                              }
+                              checked={false}
+                              desktop={false}
+                              disabled={false}
+                              focusState="none"
+                              insetChildren={false}
+                              primaryText="Unlisted"
+                              value="unlisted" />
+                  </DropDownMenu>
+                  <LoaderButton
+                        disabled={true}
+                        isLoading={undefined}
+                        loadingText="Creating target..."
+                        text="Create"
+                        type="submit" />
+            </div>
+      </form>
+</Modal>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <YoutubeTarget />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": YoutubeTarget {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleNameChange": [Function],
+        "handlePrivacyStatusChange": [Function],
+        "handleSubmit": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "shouldDisableCreate": [Function],
+        "state": Object {
+          "isLoading": false,
+          "name": "",
+          "privacyStatus": "public",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Modal
+          closeModal={undefined}
+          open={undefined}
+          title="Create Youtube Target">
+          <form
+                    onSubmit={[Function]}>
+                    <div
+                              className={undefined}>
+                              <LivepinTextField
+                                        hint="My youtube channel"
+                                        label="Destination Target Name"
+                                        name="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="" />
+                              <DropDownMenu
+                                        anchorOrigin={
+                                                  Object {
+                                                            "horizontal": "left",
+                                                            "vertical": "top",
+                                                          }
+                                        }
+                                        animated={true}
+                                        autoWidth={false}
+                                        disabled={false}
+                                        iconButton={<NavigationArrowDropDown />}
+                                        maxHeight={500}
+                                        multiple={false}
+                                        name="privacyStatus"
+                                        onChange={[Function]}
+                                        openImmediately={false}
+                                        selectedMenuItemStyle={
+                                                  Object {
+                                                            "color": "#6908A1",
+                                                          }
+                                        }
+                                        style={
+                                                  Object {
+                                                            "width": 310,
+                                                          }
+                                        }
+                                        value="public">
+                                        <MenuItem
+                                                  anchorOrigin={
+                                                            Object {
+                                                                      "horizontal": "right",
+                                                                      "vertical": "top",
+                                                                    }
+                                                  }
+                                                  checked={false}
+                                                  desktop={false}
+                                                  disabled={false}
+                                                  focusState="none"
+                                                  insetChildren={false}
+                                                  primaryText="Public"
+                                                  value="public" />
+                                        <MenuItem
+                                                  anchorOrigin={
+                                                            Object {
+                                                                      "horizontal": "right",
+                                                                      "vertical": "top",
+                                                                    }
+                                                  }
+                                                  checked={false}
+                                                  desktop={false}
+                                                  disabled={false}
+                                                  focusState="none"
+                                                  insetChildren={false}
+                                                  primaryText="Private"
+                                                  value="private" />
+                                        <MenuItem
+                                                  anchorOrigin={
+                                                            Object {
+                                                                      "horizontal": "right",
+                                                                      "vertical": "top",
+                                                                    }
+                                                  }
+                                                  checked={false}
+                                                  desktop={false}
+                                                  disabled={false}
+                                                  focusState="none"
+                                                  insetChildren={false}
+                                                  primaryText="Unlisted"
+                                                  value="unlisted" />
+                              </DropDownMenu>
+                              <LoaderButton
+                                        disabled={true}
+                                        isLoading={undefined}
+                                        loadingText="Creating target..."
+                                        text="Create"
+                                        type="submit" />
+                    </div>
+          </form>
+</Modal>,
+        "_debugID": 2,
+        "_renderedOutput": <Modal
+          closeModal={undefined}
+          open={undefined}
+          title="Create Youtube Target">
+          <form
+                    onSubmit={[Function]}>
+                    <div
+                              className={undefined}>
+                              <LivepinTextField
+                                        hint="My youtube channel"
+                                        label="Destination Target Name"
+                                        name="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="" />
+                              <DropDownMenu
+                                        anchorOrigin={
+                                                  Object {
+                                                            "horizontal": "left",
+                                                            "vertical": "top",
+                                                          }
+                                        }
+                                        animated={true}
+                                        autoWidth={false}
+                                        disabled={false}
+                                        iconButton={<NavigationArrowDropDown />}
+                                        maxHeight={500}
+                                        multiple={false}
+                                        name="privacyStatus"
+                                        onChange={[Function]}
+                                        openImmediately={false}
+                                        selectedMenuItemStyle={
+                                                  Object {
+                                                            "color": "#6908A1",
+                                                          }
+                                        }
+                                        style={
+                                                  Object {
+                                                            "width": 310,
+                                                          }
+                                        }
+                                        value="public">
+                                        <MenuItem
+                                                  anchorOrigin={
+                                                            Object {
+                                                                      "horizontal": "right",
+                                                                      "vertical": "top",
+                                                                    }
+                                                  }
+                                                  checked={false}
+                                                  desktop={false}
+                                                  disabled={false}
+                                                  focusState="none"
+                                                  insetChildren={false}
+                                                  primaryText="Public"
+                                                  value="public" />
+                                        <MenuItem
+                                                  anchorOrigin={
+                                                            Object {
+                                                                      "horizontal": "right",
+                                                                      "vertical": "top",
+                                                                    }
+                                                  }
+                                                  checked={false}
+                                                  desktop={false}
+                                                  disabled={false}
+                                                  focusState="none"
+                                                  insetChildren={false}
+                                                  primaryText="Private"
+                                                  value="private" />
+                                        <MenuItem
+                                                  anchorOrigin={
+                                                            Object {
+                                                                      "horizontal": "right",
+                                                                      "vertical": "top",
+                                                                    }
+                                                  }
+                                                  checked={false}
+                                                  desktop={false}
+                                                  disabled={false}
+                                                  focusState="none"
+                                                  insetChildren={false}
+                                                  primaryText="Unlisted"
+                                                  value="unlisted" />
+                              </DropDownMenu>
+                              <LoaderButton
+                                        disabled={true}
+                                        isLoading={undefined}
+                                        loadingText="Creating target..."
+                                        text="Create"
+                                        type="submit" />
+                    </div>
+          </form>
+</Modal>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <YoutubeTarget />,
+}
+`;

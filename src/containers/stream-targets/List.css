@@ -1,0 +1,112 @@
+.streamTargets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 32px auto 64px auto;
+}
+
+.backBtn {
+  position: absolute;
+  top: 112px;
+  left: 132px;
+  cursor: pointer;
+}
+
+.backChevron {
+  position: absolute;
+  left: -16px;
+  top: 1px;
+  color: rgba(0,0,0,0.4);
+  font-size: 95%;
+}
+
+.EmptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.EmptyListIcon {
+  width: 300px;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+.EmptyListParagraph {
+  text-align: center;
+  color: #a1a1a1;
+  font-size: 21px;
+}
+
+.ListStreamTargets .btn {
+  margin: 8px 0 16px;
+}
+
+.table {
+  width: 100%;
+}
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: rgba(0,0,0,0.84);
+  font-size: 84%;
+}
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+.nameColumn {
+  flex: 2;
+  margin-right: 8px;
+}
+.platformColumn {
+  flex: 1;
+}
+.destinationColumn {
+  flex: 2;
+  text-transform: capitalize;
+}
+.privacyColumn {
+  flex: 2;
+  text-transform: capitalize;
+}
+.enabledColumn {
+  flex: 1;
+  text-transform: capitalize;
+}
+.actionColumn {
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-right: -16px;
+}
+
+.actionIcon {
+  margin-right: 32px;
+  max-width: 24px;
+  max-height: 16px;
+  cursor: pointer;
+}
+
+.actionButtonContainer {
+  margin-top: 12px;
+  align-self: flex-end;
+}
+
+.LoaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

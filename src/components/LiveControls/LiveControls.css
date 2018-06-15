@@ -1,0 +1,80 @@
+.LiveControls {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 24px);
+  top: 22px;
+  right: 32px;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.shiftForChat {
+  right: calc(30vw - 72px);
+  transition: 0.3s;
+}
+
+.chatNotification {
+  background-color: #d0021b;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ControlIconContainer {
+ /* background-color: rgba(0, 0, 0, 0.5);*/
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.TopButtonsContainer {
+  display: flex;
+}
+
+.BottomButtonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 36px;
+}
+
+.chatIcon {
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatIcon .material-icons {
+  display: inline-block;
+}
+
+.cameraIcon {
+  width: 26px;
+}
+
+.active {
+  background-color: #d0021b;
+}
+
+.muteIcon {
+  width: 21px;
+}
+
+.shareIcon {
+  width: 26px;
+  align-items: center;
+  justify-content: center;
+}

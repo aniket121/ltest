@@ -1,0 +1,102 @@
+.BetaBlocker {
+  text-align: center;
+  margin-top: 144px;
+}
+
+.ListStreamGroups {
+  display: flex;
+  justify-content: center;
+}
+
+.streamGroups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  width: 1000px;
+  margin-bottom: 64px;
+}
+
+.table {
+  width: 100%;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: rgba(0,0,0,0.84);
+  font-size: 84%;
+}
+
+.streamTargetIconWrapper {
+  margin-right: 12px;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.nameColumn {
+  flex: 2;
+  margin-right: 8px;
+}
+.targetColumn {
+  display: flex;
+  flex: 3;
+}
+.rtmpColumn {
+  display: flex;
+  flex: 2;
+}
+.actionColumn {
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.actionIcon {
+  margin-right: 32px;
+  max-width: 24px;
+  max-height: 16px;
+  cursor: pointer;
+}
+
+.actionButtonContainer {
+  margin-top: 12px;
+  align-self: flex-end;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noStreamGroups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noStreamGroupsIcon {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  width: 350px;
+}
+
+.noStreamGroupsMessage {
+  color: #a1a1a1;
+  text-align: center;
+  font-size: 21px;
+}

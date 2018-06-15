@@ -1,0 +1,34 @@
+.allPlatforms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.available {
+  display: flex;
+}
+
+.unavailable {
+  margin-top: 24px;
+  display: flex;
+  opacity: 0.5;
+}
+
+.comingSoon {
+  display: flex;
+  margin-top: 24px;
+}
+
+.comingSoonLabel {
+  margin: 0 12px;
+  color: rgba(0,0,0,0.3);
+}
+
+.comingSoonDivider {
+  width: 32px;
+  height: 1px;
+  margin-top: 9px;
+  background-color: rgba(0,0,0,0.1);
+}

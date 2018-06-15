@@ -1,0 +1,16 @@
+.BroadcastControls {
+  position: absolute;
+  bottom: 44px;
+  z-index: 1001;
+  display: flex;
+  transition: 0.3s;
+}
+
+.shiftForChat {
+  right: 50%;
+  transition: 0.3s;
+}
+
+.readyToGoLive {
+  display: flex;
+}

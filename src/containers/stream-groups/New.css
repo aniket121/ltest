@@ -1,0 +1,27 @@
+.NewStreamGroup form {
+  padding-bottom: 15px;
+}
+
+.NewStreamGroup form textarea {
+  height: 300px;
+  font-size: 24px;
+}
+
+.modal {
+  width: 30% !important;
+  min-width: 387px;
+}
+
+.modalTitle {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 44px !important;
+}
+
+.closeModal {
+  position: absolute;
+  right: 4px;
+  top: -32px;
+  color: #fff;
+  cursor: pointer;
+}

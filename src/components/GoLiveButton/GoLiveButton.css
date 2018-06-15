@@ -1,0 +1,27 @@
+.GoLiveButtonWrapper {
+  background-image: linear-gradient(-38deg, rgba(0, 39, 163, 1) 0%, rgba(132, 0, 160, 1) 42%, rgba(225, 69, 59, 1) 76%, rgba(255, 205, 22, 1) 100%);
+  width: 134px;
+  padding: 8px 12px;
+  border-radius: 38px;
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.GoLiveButtonLabel {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.GoLiveIcon {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  padding-left: 16px;
+}

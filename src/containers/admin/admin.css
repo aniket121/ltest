@@ -1,0 +1,82 @@
+.AdminContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.SubscribersTable {
+  width: 80%;
+}
+
+.SubscribersTable h2 {
+  margin-left: 24px;
+}
+
+.SubscriberTableColumns {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 84%;
+}
+
+.SubscriberTableHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Subscriber {
+  display: flex;
+  align-items: center;
+  flex: 10;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+
+.refreshButton {
+  cursor: pointer;
+  margin: 20px 24px;
+}
+
+.refreshButton:hover {
+  font-size: 110%;
+}
+
+.actionIcon {
+  margin-left: 24px;
+  max-width: 24px;
+  max-height: 16px;
+  cursor: pointer;
+}
+
+.emailField {
+  flex: 4;
+}
+
+.betaField {
+  flex: 2;
+}
+
+.createdField {
+  flex: 2;
+}
+
+.actionField {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 32px
+}
+
+.actionButton {
+  background-color: rgb(145, 10, 146);
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}

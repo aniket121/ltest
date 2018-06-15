@@ -1,0 +1,87 @@
+.Profile {
+  height: calc(100vh);
+  position: relative;
+  font-size: 21px;
+  flex-grow: 1;
+  margin-top: 30
+}
+
+.editButton {
+  min-width: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: right;
+  height: auto;
+}
+
+.avatar {
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.avatarImage {
+  display: 'block';
+  border-radius: 100%;
+  border: '2px solid #fff';
+  height: 140px;
+  width: 140px;
+}
+
+.profileBanner {
+  height: 400;
+  margin-top: -25;
+  background-size: 'cover';
+  position: 'relative';
+  margin-bottom: 25; 
+  background-position: 'center'
+}
+
+#posts {
+  margin: 50px
+}
+
+.postCard {
+  padding: 50px
+}
+
+.paper {
+  padding: 16;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinDate {
+  opacity: 0.5;
+}
+
+.username {
+  margin: auto;
+  display: block;
+}
+
+.aboutMe {
+  margin: auto;
+  display: block;
+}
+
+.placeholder {
+  width: calc(100% - 128px);
+  filter: blur(3px);
+  margin: 0 64px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  color: #fff;
+  background-color: rgba(0,0,0,1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}

@@ -1,0 +1,101 @@
+.ListBroadcasts {
+  display: flex;
+  justify-content: center;
+}
+
+.broadcasts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  width: 1000px;
+  margin-bottom: 64px;
+}
+
+.table {
+  width: 100%;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  color: rgba(0,0,0,0.84);
+  font-size: 84%;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.nameColumn {
+  flex: 7;
+  margin-right: 8px;
+}
+.destinationColumn {
+  flex: 4;
+  margin-right: 8px;
+}
+.airDateColumn {
+  flex: 3;
+  margin-right: 8px;
+}
+.targetColumn {
+  display: flex;
+  flex: 2;
+}
+.durationColumn {
+  display: flex;
+  flex: 2;
+}
+.actionColumn {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.actionIcon {
+  margin-right: 32px;
+  max-width: 24px;
+  max-height: 16px;
+  cursor: pointer;
+}
+
+.actionButtonContainer {
+  margin-top: 12px;
+  align-self: flex-end;
+}
+
+.LoaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noBroadcasts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.noBroadcastsIcon {
+  margin-top: 56px;
+  margin-bottom: 24px;
+  width: 350px;
+}
+
+.noBroadcastsMessage {
+  font-size: 21px;
+  color: #a1a1a1;
+  text-align: center;
+}

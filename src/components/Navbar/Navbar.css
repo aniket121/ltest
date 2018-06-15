@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: rgba(113, 113, 113, 1);
+  text-transform: none;
+}
+
+.navLinks {
+  display: flex !important;
+  margin-top: 4;
+  list-style: none;
+}
+
+.brand {
+  height: 100%;
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 60px;
+  margin-top: 4px;
+  margin-left: 16px;
+}
+
+.navItem {
+  margin-top: 12px;
+  margin-right: 32px;
+  cursor: pointer;
+}

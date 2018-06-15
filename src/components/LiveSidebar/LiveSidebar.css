@@ -1,0 +1,42 @@
+.sidebarContainer {
+  background-image: linear-gradient(-15deg, rgba(0, 39, 163, 1) 0%, rgba(47, 25, 162, 1) 13%, rgba(132, 0, 160, 1) 35%, rgba(225, 69, 59, 1) 82%, rgba(255, 205, 22, 1) 100%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 64px;
+  z-index: 5;
+}
+
+.sidebarContent {
+  position: relative;
+  height: 100%;
+}
+
+.sidebarTopMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarItem {
+  border-bottom: 1px solid rgba(214, 213, 213, 0.6);
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarIcon {
+  width: 24px;
+}
+
+.sidebarBottomItem {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid rgba(214, 213, 213, 0.6);
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

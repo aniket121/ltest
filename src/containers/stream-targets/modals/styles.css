@@ -1,0 +1,45 @@
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.textField {
+  width: 310;
+}
+.fullwidth{
+
+	    margin-top: -7%;
+    width: 114%;
+    margin-left: -7%;
+	display: flex;
+}
+.tab{
+	background-image: linear-gradient(-38deg, rgba(0, 39, 163, 1) 0%, rgba(132, 0, 160, 1) 42%, rgba(225, 69, 59, 1) 76%, rgba(255, 205, 22, 1) 100%);
+	width:50%;
+	padding-top: 12px;
+	color:white;
+	height: 39px;
+	text-align: center;
+
+}
+
+.inactivetab{
+	background-color: white;
+	color:black;
+	width:50%;
+	padding-top: 12px;
+	height: 39px;
+	text-align: center;
+
+}
+.displayNone{
+	display: none;
+}
+.displayblock{
+	display: block;
+}
+.setWidth{
+	width:70% !important;
+}
