@@ -11,25 +11,29 @@ class CustomTarget extends Component {
     this.state = {
       isLoading: false,
       name: '',
-      streamUrl: ''
+      streamUrl: '',
+       key: ''
+      
     };
   }
 
   handleChange = event => {
+
     this.setState({
       [event.target.name]: event.target.value
     });
+    console.log(event.target.name)
   };
 
   shouldDisableCreate = () => {
-    const { name, streamUrl, isSaving } = this.state;
-    return !name || !streamUrl || isSaving;
+    const { name, streamUrl,key, isSaving } = this.state;
+    return !name || !streamUrl || !key || isSaving ;
   };
 
   handleSubmit = async event => {
     event.preventDefault();
 
-    const { name, streamUrl } = this.state;
+    const { name, streamUrl,key } = this.state;
     const { streamGroupId } = this.props.match.params;
 
     this.setState({ isLoading: true });
@@ -40,7 +44,8 @@ class CustomTarget extends Component {
         provider: 'custom',
         streamGroupId,
         config: {
-          streamUrl
+          streamUrl,
+          key
         }
       });
       this.setState({ isLoading: false });
@@ -52,12 +57,12 @@ class CustomTarget extends Component {
   };
 
   render() {
-    const { isLoading, name, streamUrl } = this.state;
+    const { isLoading, name, streamUrl,key } = this.state;
     const { isModalOpen, modalType, closeModal, isSaving } = this.props;
 
     return (
       <Modal
-        title="Create Custom Target"
+        title="Create Custom RTMP"
         open={isModalOpen && modalType === 'custom_target'}
         closeModal={closeModal}
       >
@@ -66,7 +71,7 @@ class CustomTarget extends Component {
             <TextField
               name="name"
               label="Stream Name"
-              hint="My YouTube Channe"
+              hint="My YouTube Channel"
               type="text"
               value={name}
               onChange={this.handleChange}
@@ -84,9 +89,9 @@ class CustomTarget extends Component {
               className={styles.textField}
               name="key"
               label="Stream Key"
-              hint=""
+              hint="Stream Key"
               type="text"
-              value={streamUrl}
+              value={key}
               onChange={this.handleChange}
             />
             <LoaderButton

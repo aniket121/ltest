@@ -112,16 +112,8 @@ class ListStreamGroups extends Component {
         </div>
         <div className={styles.rtmpColumn}>
          
-         <Toggle
-            style={styles.toggle}
-            defaultToggled={streamGroup.isRtmpEnabled}
-            label={streamGroup.isRtmpEnabled ? "Enabled" : "Disabled"}
-            labelPosition={"right"}
-            onClick={() => this.handleRTMP(streamGroup)}
-           
-            
-          />
-          {streamGroup.isRtmpEnabled ? <button onClick={() => this.openRtmpModal()}>RTMP</button> :''}
+        
+       <button  className={styles.rtmpbutton}  onClick={() => this.openRtmpModal()}>RTMP</button> 
 
         </div>
         <div className={styles.actionColumn}>
@@ -153,7 +145,7 @@ class ListStreamGroups extends Component {
         <div className={styles.tableHeader}>
           <div className={styles.nameColumn}>Name</div>
           <div className={styles.targetColumn}>LivePin Destinations</div>
-          <div className={styles.rtmpColumn}>Ingestion/RTMP</div>
+          <div className={styles.rtmpColumn}></div>
           <div className={styles.actionColumn} />
         </div>
         {this.renderStreamGroupList()}
